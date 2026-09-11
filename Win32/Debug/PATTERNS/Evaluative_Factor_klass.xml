@@ -1,0 +1,60 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly' rs:CommandTimeout='30' rs:updatable='true'>
+		<s:AttributeType name='ID' rs:number='1' rs:writeunknown='true' rs:basecatalog='btiall' rs:baseschema='GEO'
+			 rs:basetable='EVALUATIVE_FACTOR_KLASS' rs:basecolumn='ID' rs:keycolumn='true'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='ID_FACTOR' rs:number='2' rs:writeunknown='true' rs:basecatalog='btiall' rs:baseschema='GEO'
+			 rs:basetable='EVALUATIVE_FACTOR_KLASS' rs:basecolumn='ID_FACTOR'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='QUALITATIVE_ID' rs:number='3' rs:writeunknown='true' rs:basecatalog='btiall' rs:baseschema='GEO'
+			 rs:basetable='EVALUATIVE_FACTOR_KLASS' rs:basecolumn='QUALITATIVE_ID'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='QUALITATIVE_VALUE' rs:number='4' rs:writeunknown='true' rs:basecatalog='btiall' rs:baseschema='GEO'
+			 rs:basetable='EVALUATIVE_FACTOR_KLASS' rs:basecolumn='QUALITATIVE_VALUE'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='255' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='OPERATORNAME' rs:number='5' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='btiall'
+			 rs:baseschema='GEO' rs:basetable='EVALUATIVE_FACTOR_KLASS' rs:basecolumn='OPERATORNAME'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='30'/>
+		</s:AttributeType>
+		<s:AttributeType name='MODIFYDATE' rs:number='6' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='btiall'
+			 rs:baseschema='GEO' rs:basetable='EVALUATIVE_FACTOR_KLASS' rs:basecolumn='MODIFYDATE'>
+			<s:datatype dt:type='string' dt:maxLength='27'/>
+		</s:AttributeType>
+		<s:AttributeType name='CREATEOPERATORNAME' rs:number='7' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='btiall'
+			 rs:baseschema='GEO' rs:basetable='EVALUATIVE_FACTOR_KLASS' rs:basecolumn='CREATEOPERATORNAME'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='30'/>
+		</s:AttributeType>
+		<s:AttributeType name='CREATEDATE' rs:number='8' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='btiall'
+			 rs:baseschema='GEO' rs:basetable='EVALUATIVE_FACTOR_KLASS' rs:basecolumn='CREATEDATE'>
+			<s:datatype dt:type='string' dt:maxLength='27'/>
+		</s:AttributeType>
+		<s:AttributeType name='QUALITATIVE_DIMENSION' rs:number='9' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='btiall'
+			 rs:baseschema='GEO' rs:basetable='EVALUATIVE_FACTOR_KLASS' rs:basecolumn='QUALITATIVE_DIMENSION'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='30'/>
+		</s:AttributeType>
+		<s:AttributeType name='ID_GROUP' rs:number='10' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='btiall'
+			 rs:baseschema='GEO' rs:basetable='EVALUATIVE_FACTOR_KLASS' rs:basecolumn='ID_GROUP'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='PREFIX' rs:number='11' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='btiall'
+			 rs:baseschema='GEO' rs:basetable='EVALUATIVE_FACTOR_KLASS' rs:basecolumn='PREFIX'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='100'/>
+		</s:AttributeType>
+		<s:AttributeType name='MI_PRINX' rs:number='12' rs:writeunknown='true' rs:basecatalog='btiall' rs:baseschema='GEO'
+			 rs:basetable='EVALUATIVE_FACTOR_KLASS' rs:basecolumn='MI_PRINX' rs:keycolumn='true'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+</s:Schema>
+<rs:data>
+</rs:data>
+</xml>

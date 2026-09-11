@@ -1,0 +1,15 @@
+!table
+!version 300
+!charset WindowsCyrillic
+
+Definition Table
+  Type NATIVE Charset "WindowsCyrillic"
+  Fields 3
+    ID Integer ;
+    GROUP_REAL_ESTATE_ID Integer ;
+    EVALUATIVE_FACTOR_ID Char (20) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "35354557-279d-41bb-af14-e057350958d8"
+end_metadata

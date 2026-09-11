@@ -1,0 +1,17 @@
+!table
+!version 1000
+!charset WindowsCyrillic
+
+Definition Table
+  Type NATIVE Charset "WindowsCyrillic"
+  Fields 5
+    КодНП_МО Char (24) Index 1 ;
+    кодОКТМО Char (22) ;
+    НаименованиеНП_МО Char (92) ;
+    Префикс Char (12) ;
+    Наименование_МО Char (92) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "24a10778-f894-4c35-b7c9-180d2cf7efa6"
+end_metadata

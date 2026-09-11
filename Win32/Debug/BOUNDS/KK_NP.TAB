@@ -1,0 +1,15 @@
+!table
+!version 1000
+!charset WindowsCyrillic
+
+Definition Table
+  Type NATIVE Charset "WindowsCyrillic"
+  Fields 2
+    Кадастровый_квартал Char (26) Index 1 ;
+    Код_НП1 Char (24) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "8655d5fe-6229-4db4-b345-7e31fab84005"
+"\MapInfo\ParentTableID" = "207aa225-2a1b-4626-b6ee-9449598e1c3d"
+end_metadata

@@ -1,0 +1,16 @@
+!table
+!version 1000
+!charset WindowsCyrillic
+
+Definition Table
+  Type NATIVE Charset "WindowsCyrillic"
+  Fields 3
+    КР_МО Char (8) ;
+    Кад_район Char (4) Index 1 ;
+    Код_межселенки Char (24) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "24f4a661-eed8-48c2-8ded-044630de8a7d"
+"\MapInfo\ParentTableID" = "e9379da9-19b0-4082-b8a6-4c15d395f5c1"
+end_metadata
